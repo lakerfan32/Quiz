@@ -97,12 +97,9 @@ public class MainActivity extends AppCompatActivity {
     }
 
     /**
-     * This method calculates the score when user clicks the Submit button.
-     *
-     */
-    public void CheckAnswers(View view) {
-        //Show quick check as a toast
-        Toast.makeText(this, "Good one!", Toast.LENGTH_SHORT).show();
+    * This method calculates the score when user clicks the Submit button.
+    */
+    public void Submit(View view) {
 
 
 
@@ -154,8 +151,6 @@ public class MainActivity extends AppCompatActivity {
                 answer6CheckBox4.isChecked() && answer6CheckBox6.isChecked() &&
                 !answer6CheckBox2.isChecked() && !answer6CheckBox5.isChecked()) {
             score = score + 1;
-        } else {
-            score = score + 0;
         }
 
         /**
@@ -192,12 +187,14 @@ public class MainActivity extends AppCompatActivity {
                 !answer10CheckBox1.isChecked() && !answer10CheckBox3.isChecked() &&
                 !answer10CheckBox5.isChecked() ) {
             score = score + 1;
-        }  else {
-            score = score + 0;
         }
-
     }
 
-
+    public void CheckAnswers(View view) {
+        //Show quick check as a toast
+        String resultsMessage;
+        resultsMessage = "You scored=" + score;
+        Toast.makeText(this, resultsMessage, Toast.LENGTH_LONG).show();
+    }
 
 }
