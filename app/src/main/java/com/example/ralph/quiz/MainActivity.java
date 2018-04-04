@@ -31,7 +31,6 @@ public class MainActivity extends AppCompatActivity {
     /**
      * Initialize all Radio Buttons, Check Boxes, and Edit Text fields for all correct answers.
      */
-    //private EditText name_field;
 
     private RadioButton answerRadioButton1b;
     private RadioButton answerRadioButton2d;
