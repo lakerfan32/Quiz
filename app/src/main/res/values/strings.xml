@@ -1,0 +1,59 @@
+<resources>
+    <string name="app_name">Quiz</string>
+    <string name="quiz_title">Welcome to the Travel Quiz!</string>
+    <string name="name_field">Please Enter Your Name</string>
+    <string name="question1">1. The Christ the Redeemer Statue is located in which South American city?</string>
+    <string name="answer1a">a. Santiago</string>
+    <string name="answer1b">b. Rio de Janeiro</string>
+    <string name="answer1c">c. Bogota</string>
+    <string name="answer1d">d. Lima</string>
+    <string name="question2">2. Declared as a World Heritage Site in 1985, the ancient city of Petra
+        reveals awe-inspiring monuments cut into surrounding cliffs.  Which country is this city located?"</string>
+    <string name="answer2a">a. India</string>
+    <string name="answer2b">b. Mongolia</string>
+    <string name="answer2c">c. Turkey</string>
+    <string name="answer2d">d. Jordan</string>
+    <string name="question3">3. If I give you a Dala horse as a souvenir from a country I visited, where
+        would you say I had gone to?</string>
+    <string name="answer3a">a. Sweden</string>
+    <string name="answer3b">b. Sri Lanka</string>
+    <string name="answer3c">c. Sudan</string>
+    <string name="answer3d">d. Samoan Islands</string>
+    <string name="question4">4. The Shire in New Zealand was created to stimulate tourist interest in the
+        country.  Which movie trilogy was this movie set used for?</string>
+    <string name="question5">5. The name of the kingdom of Siam was changed in 1939 to which current country
+        in Southeast Asia?</string>
+    <string name="answer5a">a. Philippines</string>
+    <string name="answer5b">b. Burma</string>
+    <string name="answer5c">c. New Guinea</string>
+    <string name="answer5d">d. Thailand</string>
+    <string name="question6">6. Which of these cities are located in Australia?  Select 4.</string>
+    <string name="answer6_option1">Perth</string>
+    <string name="answer6_option2">Birmingham</string>
+    <string name="answer6_option3">Melbourne</string>
+    <string name="answer6_option4">Brisbane</string>
+    <string name="answer6_option5">Johannesburg</string>
+    <string name="answer6_option6">Sydney</string>
+    <string name="question7">7. Which U.S. city served as the capital from 1785 until 1790?</string>
+    <string name="answer7a">a. Richmond</string>
+    <string name="answer7b">b. Boston</string>
+    <string name="answer7c">c. Williamsburg</string>
+    <string name="answer7d">d. New York</string>
+    <string name="question8">8. The Galapagos Islands is an archipelago comprised of 19 volcanic
+        islands known for the vast number of unique species observed by Charles Darwin.  Which
+        continent are they located in?</string>
+    <string name="question9">9. Salisbury Cathedral in United Kingdom is home to which original
+        historical relic?</string>
+    <string name="answer9a">a. The Lost Ark</string>
+    <string name="answer9b">b. Magna Carta</string>
+    <string name="answer9c">c. Old Testament</string>
+    <string name="answer9d">d. Plato\'s Dialogues</string>
+    <string name="question10">10. The Euro Tunnel links which two countries?</string>
+    <string name="answer10_option1">Austria</string>
+    <string name="answer10_option2">France</string>
+    <string name="answer10_option3">Germany</string>
+    <string name="answer10_option4">England</string>
+    <string name="answer10_option5">Belgium</string>
+    <string name="submit_button">submit</string>
+    <string name="answer_field">Type your answer</string>
+</resources>
