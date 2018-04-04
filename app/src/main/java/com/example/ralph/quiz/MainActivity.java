@@ -21,13 +21,6 @@ public class MainActivity extends AppCompatActivity {
     int score = 0;
 
 
-    @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
-    }
-
-
     /**
      * Initialize all Radio Buttons, Check Boxes, and Edit Text fields for all correct answers.
      */
@@ -95,10 +88,17 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
+        assignFindViews();
+    }
+
     /**
     * This method calculates the score when user clicks the Submit button.
     */
-    public void Submit(View view) {
+    public void CheckAnswers(View view) {
 
 
 
@@ -187,13 +187,21 @@ public class MainActivity extends AppCompatActivity {
                 !answer10CheckBox5.isChecked() ) {
             score = score + 1;
         }
+
+    String resultsMessage;
+    resultsMessage = "You scored=" + score;
+    Toast.makeText(this, resultsMessage, Toast.LENGTH_LONG).show();
+
+
     }
 
-    public void CheckAnswers(View view) {
+
+
+    /*public void CheckAnswers(View view) {
         //Show quick check as a toast
         String resultsMessage;
         resultsMessage = "You scored=" + score;
         Toast.makeText(this, resultsMessage, Toast.LENGTH_LONG).show();
-    }
+    }*/
 
 }
