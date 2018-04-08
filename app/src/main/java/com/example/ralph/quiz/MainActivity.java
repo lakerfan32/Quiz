@@ -101,7 +101,6 @@ public class MainActivity extends AppCompatActivity {
     public void CheckAnswers(View view) {
 
 
-
         /**
          * This method checks answer for Question 1.
          */
@@ -188,20 +187,15 @@ public class MainActivity extends AppCompatActivity {
             score = score + 1;
         }
 
+    /**
+    * Display the user's final score.
+    */
     String resultsMessage;
-    resultsMessage = "You scored=" + score;
+    resultsMessage = "You correctly answered " + score + " out of 10 questions!";
     Toast.makeText(this, resultsMessage, Toast.LENGTH_LONG).show();
 
 
     }
 
-
-
-    /*public void CheckAnswers(View view) {
-        //Show quick check as a toast
-        String resultsMessage;
-        resultsMessage = "You scored=" + score;
-        Toast.makeText(this, resultsMessage, Toast.LENGTH_LONG).show();
-    }*/
 
 }
