@@ -1,5 +1,6 @@
 package com.example.ralph.quiz;
 
+import android.content.res.Resources;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
@@ -190,10 +191,9 @@ public class MainActivity extends AppCompatActivity {
     /**
     * Display the user's final score.
     */
-    String resultsMessage;
-    resultsMessage = "You correctly answered " + score + " out of 10 questions!";
-    Toast.makeText(this, resultsMessage, Toast.LENGTH_LONG).show();
-
+    Resources resultsMessage = getResources();
+    String text = String.format(resultsMessage.getString(R.string.results), score);
+    Toast.makeText(this, text, Toast.LENGTH_LONG).show();
 
     }
 

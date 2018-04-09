@@ -56,4 +56,5 @@
     <string name="answer10_option5">Belgium</string>
     <string name="submit_button">submit</string>
     <string name="answer_field">Type your answer</string>
+    <string name="results">"You correctly answered %1$d out of 10 questions!"</string>
 </resources>
