@@ -127,9 +127,7 @@ public class MainActivity extends AppCompatActivity {
          * This method checks answer for Question 4.
          */
         EditText questionFour = (EditText) findViewById(R.id.answer4_text_field);
-
         String answer4 = answerTextField4.getText().toString();
-
         if (answer4.equalsIgnoreCase("Hobbit")) {
 
             score = score + 1;
@@ -163,9 +161,7 @@ public class MainActivity extends AppCompatActivity {
          * This method checks answer for Question 8.
          */
         EditText questionEight = (EditText) findViewById(R.id.answer8_text_field);
-
         String answer8 = answerTextField8.getText().toString();
-
         if (answer8.equalsIgnoreCase("South America")) {
 
             score = score + 1;
