@@ -183,7 +183,7 @@ public class MainActivity extends AppCompatActivity {
         }
 
     /**
-    * Display the user's final score.
+    * Display the user's final score using the Resources instance.
     */
     Resources resultsMessage = getResources();
     String text = String.format(resultsMessage.getString(R.string.results), score);
