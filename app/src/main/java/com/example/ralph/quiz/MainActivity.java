@@ -12,7 +12,7 @@ import android.widget.Toast;
 
 /**
  * This app displays a travel quiz app that could be taken by a user and calculates all correct answers.
- * It will then show how many correct answers the user gets.
+ * Clicking SUBMIT will show how many questions the user answers correctly.
  */
 
 public class MainActivity extends AppCompatActivity {
@@ -20,7 +20,6 @@ public class MainActivity extends AppCompatActivity {
      * Initialize current score for user to 0.
      */
     int score = 0;
-
 
     /**
      * Initialize all Radio Buttons, Check Boxes, and Edit Text fields for all correct answers.
@@ -100,7 +99,6 @@ public class MainActivity extends AppCompatActivity {
     * This method calculates the score when user clicks the Submit button.
     */
     public void CheckAnswers(View view) {
-
 
         /**
          * This method checks answer for Question 1.
