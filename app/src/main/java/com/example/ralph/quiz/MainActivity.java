@@ -22,8 +22,10 @@ public class MainActivity extends AppCompatActivity {
     int score = 0;
 
     /**
-     * Initialize all Radio Buttons, Check Boxes, and Edit Text fields for all correct answers.
+     * Initialize all Radio Buttons, Check Boxes, and Edit Text fields for all correct answers
+     * and user name input.
      */
+    private EditText nameField;
 
     private RadioButton answerRadioButton1b;
     private RadioButton answerRadioButton2d;
@@ -56,6 +58,8 @@ public class MainActivity extends AppCompatActivity {
      * Declare all ViewById global variables to be used.
      */
     private void assignFindViews() {
+
+        nameField = findViewById(R.id.name_field);
 
         answerRadioButton1b = findViewById(R.id.answer1b);
 
@@ -186,8 +190,9 @@ public class MainActivity extends AppCompatActivity {
     * Display the user's final score using the Resources instance.
     */
     Resources resultsMessage = getResources();
-    String text = String.format(resultsMessage.getString(R.string.results), score);
-    Toast.makeText(this, text, Toast.LENGTH_LONG).show();
+    String userName = nameField.getText().toString();
+    String finalResults = String.format(resultsMessage.getString(R.string.results), userName, score);
+    Toast.makeText(this, finalResults, Toast.LENGTH_LONG).show();
 
     }
 
