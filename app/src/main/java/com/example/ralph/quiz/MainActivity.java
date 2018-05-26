@@ -27,32 +27,32 @@ public class MainActivity extends AppCompatActivity {
      */
     private EditText nameField;
 
-    private RadioButton answerRadioButton1b;
-    private RadioButton answerRadioButton2d;
-    private RadioButton answerRadioButton3a;
+    private RadioButton question1Answer1b;
+    private RadioButton question2Answer2d;
+    private RadioButton question3Answer3a;
 
-    private EditText answerTextField4;
+    private EditText question4Answer;
 
-    private RadioButton answerRadioButton5d;
+    private RadioButton question5Answer5d;
 
-    private CheckBox answer6CheckBox1;
-    private CheckBox answer6CheckBox2;
-    private CheckBox answer6CheckBox3;
-    private CheckBox answer6CheckBox4;
-    private CheckBox answer6CheckBox5;
-    private CheckBox answer6CheckBox6;
+    private CheckBox question6AnswerBox1;
+    private CheckBox question6AnswerBox2;
+    private CheckBox question6AnswerBox3;
+    private CheckBox question6AnswerBox4;
+    private CheckBox question6AnswerBox5;
+    private CheckBox question6AnswerBox6;
 
-    private RadioButton answerRadioButton7d;
+    private RadioButton question7Answer7d;
 
-    private EditText answerTextField8;
+    private EditText question8Answer;
 
-    private RadioButton answerRadioButton9b;
+    private RadioButton question9Answer9b;
 
-    private CheckBox answer10CheckBox1;
-    private CheckBox answer10CheckBox2;
-    private CheckBox answer10CheckBox3;
-    private CheckBox answer10CheckBox4;
-    private CheckBox answer10CheckBox5;
+    private CheckBox question10AnswerBox1;
+    private CheckBox question10AnswerBox2;
+    private CheckBox question10AnswerBox3;
+    private CheckBox question10AnswerBox4;
+    private CheckBox question10AnswerBox5;
 
     /**
      * Declare all ViewById global variables to be used.
@@ -61,34 +61,34 @@ public class MainActivity extends AppCompatActivity {
 
         nameField = findViewById(R.id.name_field);
 
-        answerRadioButton1b = findViewById(R.id.answer1b);
+        question1Answer1b = findViewById(R.id.answer1b);
 
-        answerRadioButton2d = findViewById(R.id.answer2d);
+        question2Answer2d = findViewById(R.id.answer2d);
 
-        answerRadioButton3a = findViewById(R.id.answer3a);
+        question3Answer3a = findViewById(R.id.answer3a);
 
-        answerTextField4 = findViewById(R.id.answer4_text_field);
+        question4Answer = findViewById(R.id.answer4_text_field);
 
-        answerRadioButton5d = findViewById(R.id.answer5d);
+        question5Answer5d = findViewById(R.id.answer5d);
 
-        answer6CheckBox1 = findViewById(R.id.answer6_option1);
-        answer6CheckBox2 = findViewById(R.id.answer6_option2);
-        answer6CheckBox3 = findViewById(R.id.answer6_option3);
-        answer6CheckBox4 = findViewById(R.id.answer6_option4);
-        answer6CheckBox5 = findViewById(R.id.answer6_option5);
-        answer6CheckBox6 = findViewById(R.id.answer6_option6);
+        question6AnswerBox1 = findViewById(R.id.answer6_option1);
+        question6AnswerBox2 = findViewById(R.id.answer6_option2);
+        question6AnswerBox3 = findViewById(R.id.answer6_option3);
+        question6AnswerBox4 = findViewById(R.id.answer6_option4);
+        question6AnswerBox5 = findViewById(R.id.answer6_option5);
+        question6AnswerBox6 = findViewById(R.id.answer6_option6);
 
-        answerRadioButton7d = findViewById(R.id.answer7d);
+        question7Answer7d = findViewById(R.id.answer7d);
 
-        answerTextField8 = findViewById(R.id.answer8_text_field);
+        question8Answer = findViewById(R.id.answer8_text_field);
 
-        answerRadioButton9b = findViewById(R.id.answer9b);
+        question9Answer9b = findViewById(R.id.answer9b);
 
-        answer10CheckBox1 = findViewById(R.id.answer10_option1);
-        answer10CheckBox2 = findViewById(R.id.answer10_option2);
-        answer10CheckBox3 = findViewById(R.id.answer10_option3);
-        answer10CheckBox4 = findViewById(R.id.answer10_option4);
-        answer10CheckBox5 = findViewById(R.id.answer10_option5);
+        question10AnswerBox1 = findViewById(R.id.answer10_option1);
+        question10AnswerBox2 = findViewById(R.id.answer10_option2);
+        question10AnswerBox3 = findViewById(R.id.answer10_option3);
+        question10AnswerBox4 = findViewById(R.id.answer10_option4);
+        question10AnswerBox5 = findViewById(R.id.answer10_option5);
 
     }
 
@@ -107,21 +107,21 @@ public class MainActivity extends AppCompatActivity {
         /**
          * This method checks answer for Question 1.
          */
-        if (answerRadioButton1b.isChecked()) {
+        if (question1Answer1b.isChecked()) {
             score = score + 1;
         }
 
         /**
          * This method checks answer for Question 2.
          */
-        if (answerRadioButton2d.isChecked()) {
+        if (question2Answer2d.isChecked()) {
             score = score + 1;
         }
 
         /**
          * This method checks answer for Question 3.
          */
-        if (answerRadioButton3a.isChecked()) {
+        if (question3Answer3a.isChecked()) {
             score = score + 1;
         }
 
@@ -129,7 +129,7 @@ public class MainActivity extends AppCompatActivity {
          * This method checks answer for Question 4.
          */
         EditText questionFour = (EditText) findViewById(R.id.answer4_text_field);
-        String answer4 = answerTextField4.getText().toString();
+        String answer4 = question4Answer.getText().toString();
         if (answer4.equalsIgnoreCase("Hobbit")) {
 
             score = score + 1;
@@ -138,7 +138,7 @@ public class MainActivity extends AppCompatActivity {
         /**
          * This method checks answer for Question 5.
          */
-        if (answerRadioButton5d.isChecked()) {
+        if (question5Answer5d.isChecked()) {
             score = score + 1;
         }
 
@@ -146,16 +146,16 @@ public class MainActivity extends AppCompatActivity {
          * This method checks answer for Question 6.
          * CheckBoxes 1,3,4 and 6 are the correct answers.
          */
-        if (answer6CheckBox1.isChecked() && answer6CheckBox3.isChecked() &&
-                answer6CheckBox4.isChecked() && answer6CheckBox6.isChecked() &&
-                !answer6CheckBox2.isChecked() && !answer6CheckBox5.isChecked()) {
+        if (question6AnswerBox1.isChecked() && question6AnswerBox3.isChecked() &&
+                question6AnswerBox4.isChecked() && question6AnswerBox6.isChecked() &&
+                !question6AnswerBox2.isChecked() && !question6AnswerBox5.isChecked()) {
             score = score + 1;
         }
 
         /**
          * This method checks answer for Question 7.
          */
-        if (answerRadioButton7d.isChecked()) {
+        if (question7Answer7d.isChecked()) {
             score = score + 1;
         }
 
@@ -163,7 +163,7 @@ public class MainActivity extends AppCompatActivity {
          * This method checks answer for Question 8.
          */
         EditText questionEight = (EditText) findViewById(R.id.answer8_text_field);
-        String answer8 = answerTextField8.getText().toString();
+        String answer8 = question8Answer.getText().toString();
         if (answer8.equalsIgnoreCase("South America")) {
 
             score = score + 1;
@@ -172,7 +172,7 @@ public class MainActivity extends AppCompatActivity {
         /**
          * This method checks answer for Question 9.
          */
-        if (answerRadioButton9b.isChecked()) {
+        if (question9Answer9b.isChecked()) {
             score = score + 1;
         }
 
@@ -180,9 +180,9 @@ public class MainActivity extends AppCompatActivity {
          * This method checks answer for Question 10.
          * CheckBoxes 2 and 4 are the correct answers.
          */
-        if (answer10CheckBox2.isChecked() && answer10CheckBox4.isChecked() &&
-                !answer10CheckBox1.isChecked() && !answer10CheckBox3.isChecked() &&
-                !answer10CheckBox5.isChecked() ) {
+        if (question10AnswerBox2.isChecked() && question10AnswerBox4.isChecked() &&
+                !question10AnswerBox1.isChecked() && !question10AnswerBox3.isChecked() &&
+                !question10AnswerBox5.isChecked() ) {
             score = score + 1;
         }
 
