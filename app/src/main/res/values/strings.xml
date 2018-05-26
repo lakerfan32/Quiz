@@ -56,6 +56,7 @@
     <string name="answer10_option5">Belgium</string>
     <string name="submit_button">submit</string>
     <string name="answer_field">Type your answer</string>
-    <string name="results">"Hello %1$s!. You correctly answered %2$d out of 10 questions!"</string>
-
+    <string name="low_score">"Sorry, %1$s. You answered %2$d out of 10 questions. Please try again."</string>
+    <string name="medium_score">"Hello %1$s. You answered %2$d out of 10 questions. Keep trying!"</string>
+    <string name="high_score">"Excellent, %1$s!. You correctly answered %2$d out of 10 questions!"</string>
 </resources>

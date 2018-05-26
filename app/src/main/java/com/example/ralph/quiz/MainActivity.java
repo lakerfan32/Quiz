@@ -100,8 +100,8 @@ public class MainActivity extends AppCompatActivity {
     }
 
     /**
-    * This method calculates the score when user clicks the Submit button.
-    */
+     * This method calculates the score when user clicks the Submit button.
+     */
     public void CheckAnswers(View view) {
 
         /**
@@ -187,16 +187,31 @@ public class MainActivity extends AppCompatActivity {
         }
 
     /**
-    * Display the user's final score using the Resources instance.
-    */
+     * Display the user's final score using the Resources instance.
+     * Toast message displays results depending on user's score using the following metrics:
+     * lowScore = 0-5 correct answers
+     * mediumScore = 6-7 correct answers
+     * highScore = 8-10 correct answers
+     */
     Resources resultsMessage = getResources();
     String userName = nameField.getText().toString();
-    String finalResults = String.format(resultsMessage.getString(R.string.results), userName, score);
-    Toast.makeText(this, finalResults, Toast.LENGTH_LONG).show();
+
+    if (score >= 0 && score <= 5) {
+        String lowScore = String.format(resultsMessage.getString(R.string.low_score), userName, score);
+        Toast.makeText(this, lowScore, Toast.LENGTH_LONG).show();
+
+    } else if (score >= 6 && score <= 7) {
+        String mediumScore = String.format(resultsMessage.getString(R.string.medium_score), userName, score);
+        Toast.makeText(this, mediumScore, Toast.LENGTH_LONG).show();
+
+    } else {
+        String highScore = String.format(resultsMessage.getString(R.string.high_score), userName, score);
+        Toast.makeText(this, highScore, Toast.LENGTH_LONG).show();
+    }
 
     /**
-    * Reset final score to zero -- avoids user from submitting more than once
-    */
+     * Reset final score to zero -- avoids user from submitting more than once
+     */
     score = 0;
 
     }
