@@ -194,6 +194,10 @@ public class MainActivity extends AppCompatActivity {
     String finalResults = String.format(resultsMessage.getString(R.string.results), userName, score);
     Toast.makeText(this, finalResults, Toast.LENGTH_LONG).show();
 
-    }
+    /**
+    * Reset final score to zero -- avoids user from submitting more than once
+    */
+    score = 0;
 
+    }
 }
