@@ -33,7 +33,7 @@
             android:hint="@string/name_field"
             android:inputType="textCapWords"
             android:textColor="@color/defaultTextColor"
-            android:textColorHint="#FFFFFF"
+            android:textColorHint="@color/defaultTextColor"
             android:textSize="@dimen/input_name" />
 
         <TextView
@@ -159,8 +159,6 @@
             android:layout_marginLeft="@dimen/left_margin"
             android:hint="@string/answer_field"
             android:inputType="textCapWords"
-            android:textColor="@color/defaultTextColor"
-            android:textColorHint="#FFFFFF"
             android:textSize="@dimen/size" />
 
         <TextView
@@ -293,8 +291,6 @@
             android:layout_marginLeft="@dimen/left_margin"
             android:hint="@string/answer_field"
             android:inputType="textCapWords"
-            android:textColor="@color/defaultTextColor"
-            android:textColorHint="#FFFFFF"
             android:textSize="@dimen/size" />
 
         <TextView

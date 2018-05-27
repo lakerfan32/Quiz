@@ -6,11 +6,13 @@
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:textColor">@color/defaultTextColor</item>
+        <item name="android:textColorHint">@color/defaultTextColor</item>
     </style>
 
     <!-- Text theme for TextViews, RadioButtons and CheckBoxes. -->
     <style name="CustomText" parent="@style/TextAppearance.AppCompat">
-        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textColor">@color/defaultTextColor</item>
         <item name="android:buttonTint">@color/colorAccent</item>
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
