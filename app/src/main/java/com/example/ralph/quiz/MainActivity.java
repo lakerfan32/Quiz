@@ -61,34 +61,34 @@ public class MainActivity extends AppCompatActivity {
 
         nameField = findViewById(R.id.name_field);
 
-        question1Answer1b = findViewById(R.id.answer1b);
+        question1Answer1b = findViewById(R.id.quest1_radio_button_b);
 
-        question2Answer2d = findViewById(R.id.answer2d);
+        question2Answer2d = findViewById(R.id.quest2_radio_button_d);
 
-        question3Answer3a = findViewById(R.id.answer3a);
+        question3Answer3a = findViewById(R.id.quest3_radio_button_a);
 
-        question4Answer = findViewById(R.id.answer4_text_field);
+        question4Answer = findViewById(R.id.quest4_answer_text);
 
-        question5Answer5d = findViewById(R.id.answer5d);
+        question5Answer5d = findViewById(R.id.quest5_radio_button_d);
 
-        question6AnswerBox1 = findViewById(R.id.answer6_option1);
-        question6AnswerBox2 = findViewById(R.id.answer6_option2);
-        question6AnswerBox3 = findViewById(R.id.answer6_option3);
-        question6AnswerBox4 = findViewById(R.id.answer6_option4);
-        question6AnswerBox5 = findViewById(R.id.answer6_option5);
-        question6AnswerBox6 = findViewById(R.id.answer6_option6);
+        question6AnswerBox1 = findViewById(R.id.quest6_checkbox_1);
+        question6AnswerBox2 = findViewById(R.id.quest6_checkbox_2);
+        question6AnswerBox3 = findViewById(R.id.quest6_checkbox_3);
+        question6AnswerBox4 = findViewById(R.id.quest6_checkbox_4);
+        question6AnswerBox5 = findViewById(R.id.quest6_checkbox_5);
+        question6AnswerBox6 = findViewById(R.id.quest6_checkbox_6);
 
-        question7Answer7d = findViewById(R.id.answer7d);
+        question7Answer7d = findViewById(R.id.quest7_radio_button_d);
 
-        question8Answer = findViewById(R.id.answer8_text_field);
+        question8Answer = findViewById(R.id.quest8_answer_text);
 
-        question9Answer9b = findViewById(R.id.answer9b);
+        question9Answer9b = findViewById(R.id.quest9_radio_button_b);
 
-        question10AnswerBox1 = findViewById(R.id.answer10_option1);
-        question10AnswerBox2 = findViewById(R.id.answer10_option2);
-        question10AnswerBox3 = findViewById(R.id.answer10_option3);
-        question10AnswerBox4 = findViewById(R.id.answer10_option4);
-        question10AnswerBox5 = findViewById(R.id.answer10_option5);
+        question10AnswerBox1 = findViewById(R.id.quest10_checkbox_1);
+        question10AnswerBox2 = findViewById(R.id.quest10_checkbox_2);
+        question10AnswerBox3 = findViewById(R.id.quest10_checkbox_3);
+        question10AnswerBox4 = findViewById(R.id.quest10_checkbox_4);
+        question10AnswerBox5 = findViewById(R.id.quest10_checkbox_5);
 
     }
 

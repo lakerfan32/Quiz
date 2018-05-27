@@ -44,29 +44,29 @@
             android:textSize="@dimen/size" />
 
         <RadioGroup
-            android:id="@+id/question1"
+            android:id="@+id/question1_radio_group"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="@dimen/left_margin"
             android:orientation="vertical">
 
             <RadioButton
-                android:id="@+id/answer1a"
+                android:id="@+id/quest1_radio_button_a"
                 style="@style/CustomText"
                 android:text="@string/answer1a" />
 
             <RadioButton
-                android:id="@+id/answer1b"
+                android:id="@+id/quest1_radio_button_b"
                 style="@style/CustomText"
                 android:text="@string/answer1b" />
 
             <RadioButton
-                android:id="@+id/answer1c"
+                android:id="@+id/quest1_radio_button_c"
                 style="@style/CustomText"
                 android:text="@string/answer1c" />
 
             <RadioButton
-                android:id="@+id/answer1d"
+                android:id="@+id/quest1_radio_button_d"
                 style="@style/CustomText"
                 android:text="@string/answer1d" />
 
@@ -80,29 +80,29 @@
             android:textSize="@dimen/size" />
 
         <RadioGroup
-            android:id="@+id/question2"
+            android:id="@+id/question2_radio_group"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="@dimen/left_margin"
             android:orientation="vertical">
 
             <RadioButton
-                android:id="@+id/answer2a"
+                android:id="@+id/quest2_radio_button_a"
                 style="@style/CustomText"
                 android:text="@string/answer2a" />
 
             <RadioButton
-                android:id="@+id/answer2b"
+                android:id="@+id/quest2_radio_button_b"
                 style="@style/CustomText"
                 android:text="@string/answer2b" />
 
             <RadioButton
-                android:id="@+id/answer2c"
+                android:id="@+id/quest2_radio_button_c"
                 style="@style/CustomText"
                 android:text="@string/answer2c" />
 
             <RadioButton
-                android:id="@+id/answer2d"
+                android:id="@+id/quest2_radio_button_d"
                 style="@style/CustomText"
                 android:text="@string/answer2d" />
 
@@ -116,29 +116,29 @@
             android:textSize="@dimen/size" />
 
         <RadioGroup
-            android:id="@+id/question3"
+            android:id="@+id/question3_radio_group"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="@dimen/left_margin"
             android:orientation="vertical">
 
             <RadioButton
-                android:id="@+id/answer3a"
+                android:id="@+id/quest3_radio_button_a"
                 style="@style/CustomText"
                 android:text="@string/answer3a" />
 
             <RadioButton
-                android:id="@+id/answer3b"
+                android:id="@+id/quest3_radio_button_b"
                 style="@style/CustomText"
                 android:text="@string/answer3b" />
 
             <RadioButton
-                android:id="@+id/answer3c"
+                android:id="@+id/quest3_radio_button_c"
                 style="@style/CustomText"
                 android:text="@string/answer3c" />
 
             <RadioButton
-                android:id="@+id/answer3d"
+                android:id="@+id/quest3_radio_button_d"
                 style="@style/CustomText"
                 android:text="@string/answer3d" />
 
@@ -152,7 +152,7 @@
             android:textSize="@dimen/size" />
 
         <EditText
-            android:id="@+id/answer4_text_field"
+            android:id="@+id/quest4_answer_text"
             style="@style/AppTheme"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -169,29 +169,29 @@
             android:textSize="@dimen/size" />
 
         <RadioGroup
-            android:id="@+id/question5"
+            android:id="@+id/question5_radio_group"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="@dimen/left_margin"
             android:orientation="vertical">
 
             <RadioButton
-                android:id="@+id/answer5a"
+                android:id="@+id/quest5_radio_button_a"
                 style="@style/CustomText"
                 android:text="@string/answer5a" />
 
             <RadioButton
-                android:id="@+id/answer5b"
+                android:id="@+id/quest5_radio_button_b"
                 style="@style/CustomText"
                 android:text="@string/answer5b" />
 
             <RadioButton
-                android:id="@+id/answer5c"
+                android:id="@+id/quest5_radio_button_c"
                 style="@style/CustomText"
                 android:text="@string/answer5c" />
 
             <RadioButton
-                android:id="@+id/answer5d"
+                android:id="@+id/quest5_radio_button_d"
                 style="@style/CustomText"
                 android:text="@string/answer5d" />
 
@@ -205,37 +205,37 @@
             android:textSize="@dimen/size" />
 
         <CheckBox
-            android:id="@+id/answer6_option1"
+            android:id="@+id/quest6_checkbox_1"
             style="@style/CustomText"
             android:layout_marginLeft="@dimen/left_margin"
             android:text="@string/answer6_option1" />
 
         <CheckBox
-            android:id="@+id/answer6_option2"
+            android:id="@+id/quest6_checkbox_2"
             style="@style/CustomText"
             android:layout_marginLeft="@dimen/left_margin"
             android:text="@string/answer6_option2" />
 
         <CheckBox
-            android:id="@+id/answer6_option3"
+            android:id="@+id/quest6_checkbox_3"
             style="@style/CustomText"
             android:layout_marginLeft="@dimen/left_margin"
             android:text="@string/answer6_option3" />
 
         <CheckBox
-            android:id="@+id/answer6_option4"
+            android:id="@+id/quest6_checkbox_4"
             style="@style/CustomText"
             android:layout_marginLeft="@dimen/left_margin"
             android:text="@string/answer6_option4" />
 
         <CheckBox
-            android:id="@+id/answer6_option5"
+            android:id="@+id/quest6_checkbox_5"
             style="@style/CustomText"
             android:layout_marginLeft="@dimen/left_margin"
             android:text="@string/answer6_option5" />
 
         <CheckBox
-            android:id="@+id/answer6_option6"
+            android:id="@+id/quest6_checkbox_6"
             style="@style/CustomText"
             android:layout_marginLeft="@dimen/left_margin"
             android:text="@string/answer6_option6" />
@@ -248,29 +248,29 @@
             android:textSize="@dimen/size" />
 
         <RadioGroup
-            android:id="@+id/question7"
+            android:id="@+id/question7_radio_group"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="@dimen/left_margin"
             android:orientation="vertical">
 
             <RadioButton
-                android:id="@+id/answer7a"
+                android:id="@+id/quest7_radio_button_a"
                 style="@style/CustomText"
                 android:text="@string/answer7a" />
 
             <RadioButton
-                android:id="@+id/answer7b"
+                android:id="@+id/quest7_radio_button_b"
                 style="@style/CustomText"
                 android:text="@string/answer7b" />
 
             <RadioButton
-                android:id="@+id/answer7c"
+                android:id="@+id/quest7_radio_button_c"
                 style="@style/CustomText"
                 android:text="@string/answer7c" />
 
             <RadioButton
-                android:id="@+id/answer7d"
+                android:id="@+id/quest7_radio_button_d"
                 style="@style/CustomText"
                 android:text="@string/answer7d" />
 
@@ -284,7 +284,7 @@
             android:textSize="@dimen/size" />
 
         <EditText
-            android:id="@+id/answer8_text_field"
+            android:id="@+id/quest8_answer_text"
             style="@style/AppTheme"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -301,29 +301,29 @@
             android:textSize="@dimen/size" />
 
         <RadioGroup
-            android:id="@+id/question9"
+            android:id="@+id/question9_radio_group"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="@dimen/left_margin"
             android:orientation="vertical">
 
             <RadioButton
-                android:id="@+id/answer9a"
+                android:id="@+id/quest9_radio_button_a"
                 style="@style/CustomText"
                 android:text="@string/answer9a" />
 
             <RadioButton
-                android:id="@+id/answer9b"
+                android:id="@+id/quest9_radio_button_b"
                 style="@style/CustomText"
                 android:text="@string/answer9b" />
 
             <RadioButton
-                android:id="@+id/answer9c"
+                android:id="@+id/quest9_radio_button_c"
                 style="@style/CustomText"
                 android:text="@string/answer9c" />
 
             <RadioButton
-                android:id="@+id/answer9d"
+                android:id="@+id/quest9_radio_button_d"
                 style="@style/CustomText"
                 android:text="@string/answer9d" />
 
@@ -337,31 +337,31 @@
             android:textSize="@dimen/size" />
 
         <CheckBox
-            android:id="@+id/answer10_option1"
+            android:id="@+id/quest10_checkbox_1"
             style="@style/CustomText"
             android:layout_marginLeft="@dimen/left_margin"
             android:text="@string/answer10_option1" />
 
         <CheckBox
-            android:id="@+id/answer10_option2"
+            android:id="@+id/quest10_checkbox_2"
             style="@style/CustomText"
             android:layout_marginLeft="@dimen/left_margin"
             android:text="@string/answer10_option2" />
 
         <CheckBox
-            android:id="@+id/answer10_option3"
+            android:id="@+id/quest10_checkbox_3"
             style="@style/CustomText"
             android:layout_marginLeft="@dimen/left_margin"
             android:text="@string/answer10_option3" />
 
         <CheckBox
-            android:id="@+id/answer10_option4"
+            android:id="@+id/quest10_checkbox_4"
             style="@style/CustomText"
             android:layout_marginLeft="@dimen/left_margin"
             android:text="@string/answer10_option4" />
 
         <CheckBox
-            android:id="@+id/answer10_option5"
+            android:id="@+id/quest10_checkbox_5"
             style="@style/CustomText"
             android:layout_marginLeft="@dimen/left_margin"
             android:text="@string/answer10_option5" />
