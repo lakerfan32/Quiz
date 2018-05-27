@@ -128,10 +128,8 @@ public class MainActivity extends AppCompatActivity {
         /**
          * This method checks answer for Question 4.
          */
-        EditText questionFour = (EditText) findViewById(R.id.answer4_text_field);
         String answer4 = question4Answer.getText().toString();
         if (answer4.equalsIgnoreCase("Hobbit")) {
-
             score = score + 1;
         }
 
@@ -162,10 +160,8 @@ public class MainActivity extends AppCompatActivity {
         /**
          * This method checks answer for Question 8.
          */
-        EditText questionEight = (EditText) findViewById(R.id.answer8_text_field);
         String answer8 = question8Answer.getText().toString();
         if (answer8.equalsIgnoreCase("South America")) {
-
             score = score + 1;
         }
 
@@ -186,33 +182,33 @@ public class MainActivity extends AppCompatActivity {
             score = score + 1;
         }
 
-    /**
-     * Display the user's final score using the Resources instance.
-     * Toast message displays results depending on user's score using the following metrics:
-     * lowScore = 0-5 correct answers
-     * mediumScore = 6-7 correct answers
-     * highScore = 8-10 correct answers
-     */
-    Resources resultsMessage = getResources();
-    String userName = nameField.getText().toString();
+        /**
+         * Display the user's final score using the Resources instance.
+         * Toast message displays results depending on user's score using the following metrics:
+         * lowScore = 0-5 correct answers
+         * mediumScore = 6-7 correct answers
+         * highScore = 8-10 correct answers
+         */
+        Resources resultsMessage = getResources();
+        String userName = nameField.getText().toString();
 
-    if (score >= 0 && score <= 5) {
-        String lowScore = String.format(resultsMessage.getString(R.string.low_score), userName, score);
-        Toast.makeText(this, lowScore, Toast.LENGTH_LONG).show();
+        if (score >= 0 && score <= 5) {
+            String lowScore = String.format(resultsMessage.getString(R.string.low_score), userName, score);
+            Toast.makeText(this, lowScore, Toast.LENGTH_LONG).show();
 
-    } else if (score >= 6 && score <= 7) {
-        String mediumScore = String.format(resultsMessage.getString(R.string.medium_score), userName, score);
-        Toast.makeText(this, mediumScore, Toast.LENGTH_LONG).show();
+        } else if (score >= 6 && score <= 7) {
+            String mediumScore = String.format(resultsMessage.getString(R.string.medium_score), userName, score);
+            Toast.makeText(this, mediumScore, Toast.LENGTH_LONG).show();
 
-    } else {
-        String highScore = String.format(resultsMessage.getString(R.string.high_score), userName, score);
-        Toast.makeText(this, highScore, Toast.LENGTH_LONG).show();
-    }
+        } else {
+            String highScore = String.format(resultsMessage.getString(R.string.high_score), userName, score);
+            Toast.makeText(this, highScore, Toast.LENGTH_LONG).show();
+        }
 
-    /**
-     * Reset final score to zero -- avoids user from submitting more than once
-     */
-    score = 0;
+        /**
+         * Reset final score to zero -- avoids user from submitting more than once
+         */
+        score = 0;
 
     }
 }
